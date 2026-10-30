@@ -3,8 +3,8 @@
   "locale": "en_US",
   "platform": "4.6.1",
   "metadata": {
-    "appmode": "rmd-static",
-    "primary_rmd": "AR1.Rmd",
+    "appmode": "shiny",
+    "primary_rmd": null,
     "primary_html": null,
     "content_category": null,
     "has_parameters": false
@@ -2076,101 +2076,8 @@
     }
   },
   "files": {
-    ".posit/publish/Auto-regressive model of order-O6MB.toml": {
-      "checksum": "46f66bbfe89fa604e156f9945de1aea5"
-    },
-    ".posit/publish/deployments/deployment-KO6A.toml": {
-      "checksum": "6d89365f5d2e819eb5ab8e1f2a531f20"
-    },
-    ".posit/publish/deployments/deployment-ME8R.toml": {
-      "checksum": "24f20b40f112142d97481ac752097fba"
-    },
-    ".posit/publish/Undervisning-950L.toml": {
-      "checksum": "0b8fc7f835d7f0d8e2f4b5d7bb3e2532"
-    },
-    "AR1.Rmd": {
-      "checksum": "064fa8a8d4bb5efac4ebc262de8e0c35"
-    },
-    "ARMA.Rmd": {
-      "checksum": "36516ce68267ee08513c5c826390aad4"
-    },
-    "Calc Blok1 Kursusgang4/941783_aau-16_9-arial-dk.potx": {
-      "checksum": "58f445e93ed2b7ba00f1c4b2330aee01"
-    },
-    "Calc Blok1 Kursusgang4/CalcBlok1Kursusgang4.pdf": {
-      "checksum": "c70bfbf9fc7fe83a1dda845f0cbb1105"
-    },
-    "Calc Blok1 Kursusgang4/CalcBlok1Kursusgang4.pptx": {
-      "checksum": "af57242709c12f60feaa1f993a57d311"
-    },
-    "Calc Blok1 Kursusgang4/CalcBlok1Kursusgang4NoEx.pdf": {
-      "checksum": "bca38a40de3f54723af0abecc220721c"
-    },
-    "Calc Blok1 Kursusgang4/Calculus_Blok1_Workshop_FYS_FYSTEK_FACIT.pdf": {
-      "checksum": "1aba8aa3474932cac1731e4c3d33120f"
-    },
-    "Calc Blok1 Kursusgang4/Calculus_Blok1_Workshop_FYS_FYSTEK.pdf": {
-      "checksum": "0579ac6b849a7d96f23b7e0c16f22dd4"
-    },
-    "Calc Blok1 Kursusgang4/Lektion4_Calculus_blok1[13].pdf": {
-      "checksum": "b9192ab14a18915b42b5029315896f4e"
-    },
-    "Calc Blok1 Kursusgang4/Workshop, Blok 1_ Potentialstrømning.pdf": {
-      "checksum": "ad5c445dd782c05bd25020870511c45e"
-    },
-    "Calc Blok1 Kursusgang4/WorkshopAnwsersFys.md": {
-      "checksum": "081795a857dd024a7b04a87de224d68b"
-    },
-    "Calc Blok1 Kursusgang4/WorkshopAnwsersMP.md": {
-      "checksum": "6369886484fdd9db8f86112c02930529"
-    },
-    "diff.Rmd": {
-      "checksum": "072643f8210e0023b44df9c906cd7bbd"
-    },
-    "kdoads.r": {
+    "app.r": {
       "checksum": "5565b8ba03c3224c30d9b709e2c5e2b6"
-    },
-    "P1/Chap2_1_Mathematics_for_finance_(compound_interest).pdf": {
-      "checksum": "2f51ec0a32ce04ec1181264849a230fc"
-    },
-    "P1/DiscreteMathematicsAndItsApplications.pdf": {
-      "checksum": "df11af10f07bd431669defc20e99dd81"
-    },
-    "P1/G3/1. Arbejdsblad.pdf": {
-      "checksum": "6f01075c01d7a23946edb65407a9bfab"
-    },
-    "P1/G4/Rettelser2210.pdf": {
-      "checksum": "0ad5a25ebf38dc64ee93f1ddebc3cdaf"
-    },
-    "P1/Mails/FørsteMail.md": {
-      "checksum": "fe3087b1e3659be106211ee9d6697d9b"
-    },
-    "P1/Mails/ForventningsAfstemning.md": {
-      "checksum": "5206ef1924731f1bd5c4d0ea96835236"
-    },
-    "P1/Mails/ForventningsAfstemning.pdf": {
-      "checksum": "7852ae81dd1441a5acd2a00390c7d491"
-    },
-    "P1/Marek Capinski, Tomasz Zastawniak - Mathematics for Finance_ An Introduction to Financial Engineering-Springer (2003).pdf": {
-      "checksum": "dfa98a0c17b98b7951f9d4c6840aba60"
-    },
-    "P1/matok_P1_projekt.pdf": {
-      "checksum": "8122ce0fb6711a9b660e2baf708d0838"
-    },
-    "P1/P1___Discrete_Optimization.pdf": {
-      "checksum": "0f16d8dd76eb8d6cdb62a4811bd314bc"
-    },
-    "P1/p1_forslag_e26.pdf": {
-      "checksum": "dadb99bb8c0cd3b08b8ef43e0319bf72"
-    },
-    "P1/ProjectTemplate.zip": {
-      "checksum": "9186801be70f42d041f95530b44fbb65"
-    },
-    "P1/Vejlederbrev.pdf": {
-      "checksum": "7132f4511104e2b1aa32d05c4c2facf9"
-    },
-    "Test.Rmd": {
-      "checksum": "aed7c56daee9393f07cabc555785e7b0"
     }
   },
   "users": null
