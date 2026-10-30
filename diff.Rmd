@@ -1,0 +1,12 @@
+---
+title: "Differencing"
+output: html_document
+---
+
+## Differencing to obtain stationarity
+
+Simulate a non-stationary time series by adding a straight line to a simulated stationary ARMA model.
+
+- Confirm that it looks non-stationary by plotting the times series and the acf
+- Find the process of differences, i.e. $y_t = x_t-x_{t-1}$ - does this look more stationary?
+

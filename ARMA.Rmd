@@ -1,0 +1,27 @@
+---
+title: "ARMA processes, AIC and estimation"
+output: html_document
+---
+
+## Simulation of ARMA
+
+Simulate a time series of length 100 using an ARMA model (you may choose the number and values of parameters in both the AR and the MA part of the model)
+
+- Fit various ARMA models with different number of parameters and compare the AIC to choose a model - do you get the same order of the model as was used in the simulation?
+- Estimate the parameters in the chosen model - if you got the right order, are the estimates then close to the parameters used in the simulation?
+
+
+## co2 data analysis
+
+Last time we considered the co2 dataset. The code below removes trend and seasonality and extracts the noise term.
+
+```{r}
+data<-co2
+data<-ts(data,frequency = 12)
+random<-na.omit(decompose(data)$random)
+plot(random)
+```
+
+- Find the best ARMA(p,q) model with p and q at most 2 for the random component.
+- Plot the acf of the residuals - does it look like white noise?
+- Is the fitted model stationary? (for an ARMA model to be stationary, it is enough that the AR part is stationary, see 6.5.1 in [CM])
